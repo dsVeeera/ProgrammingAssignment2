@@ -105,7 +105,7 @@ In order to complete this assignment, you must do the following:
 This assignment will be graded via peer assessment.
 
 ### Output
-
+```
 > my_matrix <- makeCacheMatrix(matrix(5:8, 2, 2))
 > my_matrix$get()
      [,1] [,2]
@@ -131,3 +131,4 @@ getting cached data
 [1,]   -4  3.5
 [2,]    3 -2.5
 > 
+```
