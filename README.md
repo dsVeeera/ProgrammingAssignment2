@@ -103,3 +103,31 @@ In order to complete this assignment, you must do the following:
 ### Grading
 
 This assignment will be graded via peer assessment.
+
+### Output
+
+> my_matrix <- makeCacheMatrix(matrix(5:8, 2, 2))
+> my_matrix$get()
+     [,1] [,2]
+[1,]    5    7
+[2,]    6    8
+> my_matrix$getInverse()
+NULL
+> cacheSolve(my_matrix)
+     [,1] [,2]
+[1,]   -4  3.5
+[2,]    3 -2.5
+> my_matrix$getInverse()
+     [,1] [,2]
+[1,]   -4  3.5
+[2,]    3 -2.5
+> my_matrix$getInverse()
+     [,1] [,2]
+[1,]   -4  3.5
+[2,]    3 -2.5
+> cacheSolve(my_matrix)
+getting cached data
+     [,1] [,2]
+[1,]   -4  3.5
+[2,]    3 -2.5
+> 
